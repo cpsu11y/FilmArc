@@ -11,21 +11,21 @@ title: Movie Cellar
       <h2>Simple Improvement as Z-Scores over Time</h2>
 
 <style>
-.full-width-iframe {
-  display: block;
-  width: 90vw;
-  max-width: 1400px;
-  height: 700px;
-
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-
-  border: 0;
-}
+  .wide-frame {
+    /* Makes it 140% the width of the Merlot text container */
+    width: 140%; 
+    max-width: 95vw; /* Prevents it from overflowing on mobile screens */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #ccc; /* Matches Merlot's subtle borders */
+    border-radius: 4px;
+    display: block;
+    height: 500px;
+  }
 </style>
       
-<iframe class = "full-width-iframe" 
+<iframe class = "wide-frame" 
     src="cellar_improvement.html" height="500";> </iframe>
             <p>Lorem ipsum dolor sit amet</p>
 </body>
