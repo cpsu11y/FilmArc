@@ -42,6 +42,5 @@ fig.update_layout(
     )
 )
 fig.show()
-fig.write_html("film_improvement_graph.html")
 ```
   
