@@ -1,0 +1,16 @@
+scss
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Allow images to span the full width of the container text area */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: Expand the main content wrapper if the entire theme shell is too narrow */
+.shell {
+  max-width: 900px; /* Adjust from default narrow width */
+}
