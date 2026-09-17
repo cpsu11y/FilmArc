@@ -43,4 +43,11 @@ fig.update_layout(
 )
 fig.show()
 ```
+
+### Moving further and including popularity
+Since this visualization only included the critical reception, I needed a way to show both the critical improvement and the popularity improvement. What I settled on was using the popularity as a y-axis since you cannot see a film less times, only more. Thus, y-axis became popularity and x-axis became the change in critical reception, which ended up creating what I am calling the "film arc."
+
+
+
+
   
