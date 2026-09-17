@@ -32,7 +32,7 @@ flat_cellar_long
 ```
 </details>
 
-### And then created a simple improvement plot
+### Critical improvement plot code
 ```python
 fig = px.line(flat_cellar_long, x="year", y="ScoreNowDifZ_cellar",color="Movie", markers=True)
 fig.update_layout(
